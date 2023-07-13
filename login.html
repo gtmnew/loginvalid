@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="form-box">
+                <form action="" name="Formfill" onsubmit="return validation()">
+                    <h2>Log In</h2>
+                    <p id="result"></p>
+                    <div class="input-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="Password" placeholder="Password">
+                    </div>
+                    <div class="button">
+                        <input type="submit" class="btn" onclick="validation()" value="Login">
+                    </div>
+                    <div class="createacc">
+                        <span><a href="index.html">Create account</a></span>
+                    </div>       
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
